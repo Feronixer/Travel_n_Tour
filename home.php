@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <!-- swiper css link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
-    <!-- font awesome cdn link -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
 
     <!-- custom css file link -->
      <link rel="stylesheet" href="css/style.css">
@@ -53,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+            <div class="swiper-slide" style="background:url(images/home-slide-1.jpg) no-repeat">
                 <div class="content">
                     <span>explore, discover, travel</span>
                     <h3>discover the new places</h3>
@@ -61,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+            <div class="swiper-slide" style="background:url(images/home-slide-1.jpg) no-repeat">
                 <div class="content">
                     <span>explore, discover, travel</span>
                     <h3>make your tour worthwhile</h3>
@@ -89,32 +92,32 @@
     <div class="box-container">
 
         <div class="box">
-            <img src="image/icon-1.png" alt="">
+            <img src="image/icon1.png" alt="">
             <h3>adventure</h3>
         </div>
 
         <div class="box">
-            <img src="image/icon-2.png" alt="">
+            <img src="image/icon2.png" alt="">
             <h3>tour guide</h3>
         </div>
 
         <div class="box">
-            <img src="image/icon-3.png" alt="">
+            <img src="image/icon3.png" alt="">
             <h3>trekking</h3>
         </div>
 
         <div class="box">
-            <img src="image/icon-4.png" alt="">
+            <img src="image/icon4.png" alt="">
             <h3>camp fire</h3>
         </div>
 
         <div class="box">
-            <img src="image/icon-5.png" alt="">
+            <img src="image/icon6.png" alt="">
             <h3>off road</h3>
         </div>
 
         <div class="box">
-            <img src="image/icon-6.png" alt="">
+            <img src="image/icon5.png" alt="">
             <h3>camping</h3>
         </div>
 
@@ -129,12 +132,12 @@
 <section class="home-about">
 
     <div class="image">
-        <img src="images/about-img.jpg" alt="">
+        <img src="images/about_us.jpg" alt="about us">
     </div>
 
     <div class="content">
         <h3>about us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>At Voyager, we specialize in creating unforgettable travel experiences tailored to your unique interests. Our team is dedicated to providing seamless and personalized tours, ensuring every journey is both enjoyable and memorable. Whether you're seeking adventure or relaxation, we are here to make your travel dreams come true.</p>
         <a href="about.php" class="btn">read more</a>
     </div>
 
@@ -195,8 +198,8 @@
 
 <section class="home-offer">
     <div class="content">
-        <h3>upto 50% off</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h3>up to 50% off</h3>
+        <p>explore the world with exclusive discounts on unforgettable experiences, all tailored to your unique interests. Book now and make your dream vacation a reality!</p>
         <a href="book.php" class="btn">book now</a>
     </div>
 </section>
@@ -242,7 +245,7 @@
         <div class="box">
             <h3>follow us</h3>
             <a href="#"><i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"><i class="fab fa-x-twitter"></i> x.com </a>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter </a>
             <a href="#"><i class="fab fa-instagram"></i> instagram </a>
             <a href="#"><i class="fab fa-linkedin"></i> linkedin </a>
         </div>
