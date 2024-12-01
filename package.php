@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
 <section class="header">
 
 <a href="home.php" class="logo">Voyager.</a>
@@ -22,7 +23,7 @@
 
 </section>
 
-<div class="heading" style="background:url(images/header-bg-2.png) no-repeat">
+<div class="heading" style="background:url(images/heading.jpg) no-repeat">
     <h1>packages</h1>
 </div>
 
@@ -35,7 +36,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-1.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -46,7 +47,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-2.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -57,7 +58,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-3.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -68,7 +69,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-4.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -79,7 +80,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-5.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -90,7 +91,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-6.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -101,7 +102,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-7.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -112,7 +113,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-8.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -123,7 +124,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-9.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -134,7 +135,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-10.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -145,7 +146,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-11.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
@@ -156,7 +157,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/img-12.jpg" alt="">
+            <img src="images/about.jpg" alt="">
         </div>
             <div class="content">
                 <h3>adventure and tour</h3>
