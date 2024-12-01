@@ -37,7 +37,7 @@
 
 <!-- header section ends -->
 
-<div class="heading" style="background:url(images/heading-img-1.jpg) no-repeat">
+<div class="heading" style="background:url(images/heading.jpg) no-repeat">
     <h1>about us</h1>
 </div>
 
@@ -46,13 +46,13 @@
 <section class="about">
 
     <div class="image">
-        <img src="images/about-img.jpg" alt="">
+        <img src="images/about.jpg" alt="">
     </div>
 
     <div class="content">
         <h3>why choose us?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo qui quod consequuntur quidem pariatur nam fugiat accusamus distinctio, consectetur repudiandae esse minus sapiente saepe earum vero animi, sed rem quae.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat corrupti repellendus odio placeat nihil magni sapiente fugit iure voluptates illum earum dignissimos quam pariatur ex, incidunt iste quas assumenda praesentium.</p>
+        <p>Choose us for your next adventure because we prioritize your travel experience above all else. Our expertly crafted, personalized itineraries and insider knowledge ensure every trip is tailored to your desires, making your journey unique and memorable.</p>
+        <p>Take advantage of exclusive offers, including up to 50% off on select packages, and enjoy peace of mind with our 24/7 customer support. With a focus on quality, value, and unforgettable experiences, we are the perfect choice for travelers seeking a seamless, extraordinary journey.</p>
         <div class="icons-container">
             <div class="icons">
                 <i class="fas fa-map"></i>
@@ -76,12 +76,10 @@
 <!-- reviews section starts -->
 
 <section class="reviews">
-     
     <div class="swiper reviews-slider">
-
         <div class="swiper-wrapper">
 
-            <div class="swiper-slider slide"> 
+            <div class="swiper-slide"> <!-- Changed from swiper-slider to swiper-slide -->
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -92,23 +90,23 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, pariatur, reiciendis, sunt officiis accusantium quam qui laborum voluptates dolorem error exercitationem laboriosam facere repudiandae quisquam odit minus magnam doloribus distinctio.</p>
                 <h3>- Josh Andrei</h3>
                 <span>traveler</span>
-                <img src="images/pic-1.png" alt="">
+                <img src="images/about_us.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide"> 
+            <div class="swiper-slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>               
+                    <i class="fas fa-star"></i>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae, officia iusto iste maiores impedit ea tempora ratione magnam ipsam dignissimos libero distinctio molestias aspernatur, tempore optio vel. Maxime, consequuntur.</p>
                 <h3>- Angel Cuadernal</h3>
                 <span>traveler</span>
-                <img src="images/pic-2.png" alt="">
+                <img src="images/about_us.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide"> 
+            <div class="swiper-slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -116,10 +114,10 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vel in unde consequatur blanditiis quis quasi nostrum accusantium optio iste quibusdam, commodi rerum ut quaerat maiores illum autem ex dolorem!</p>
                 <h3>- Aleck Carpio</h3>
                 <span>traveler</span>
-                <img src="images/pic-3.png" alt="">
+                <img src="images/about_us.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide"> 
+            <div class="swiper-slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -128,10 +126,10 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga qui itaque necessitatibus. Eius eos quaerat maxime cumque at, ut modi ipsum alias, pariatur veritatis dolore. Incidunt temporibus itaque dolor commodi.</p>
                 <h3>- Jasmine Reigne</h3>
                 <span>traveler</span>
-                <img src="images/pic-4.png" alt="">
+                <img src="images/about_us.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide"> 
+            <div class="swiper-slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -141,10 +139,10 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio ut natus. Fugiat dolorum blanditiis necessitatibus quidem commodi beatae ratione, placeat amet pariatur perspiciatis vel voluptatem! Veritatis doloremque eum iusto.</p>
                 <h3>- Alexa Blanco</h3>
                 <span>traveler</span>
-                <img src="images/pic-5.png" alt="">
+                <img src="images/about_us.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide"> 
+            <div class="swiper-slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -155,15 +153,13 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, consequatur quod tempora quia nam quibusdam rem dignissimos ipsam dolores ducimus? Rerum, deleniti molestias quos itaque accusamus dolor veritatis id nemo.</p>
                 <h3>- John Roy D. L.</h3>
                 <span>traveler</span>
-                <img src="images/pic-6.png" alt="">
+                <img src="images/about_us.jpg" alt="">
             </div>
-            
 
         </div>
-
     </div>
-
 </section>
+
 
 <!-- reviews section ends -->
 
@@ -210,7 +206,7 @@
         <div class="box">
             <h3>follow us</h3>
             <a href="#"><i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"><i class="fab fa-x-twitter"></i> x.com </a>
+            <a href="#"><i class="fab fa-x-twitter"></i> Twitter </a>
             <a href="#"><i class="fab fa-instagram"></i> instagram </a>
             <a href="#"><i class="fab fa-linkedin"></i> linkedin </a>
         </div>
