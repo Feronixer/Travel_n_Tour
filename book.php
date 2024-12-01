@@ -22,13 +22,14 @@
 
 </section>
 
-<div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
+<div class="heading" style="background:url(images/heading.jpg) no-repeat">
 <h1>book now</h1>
 
+</div>
 
-<section class"booking">
+<section class="booking">
 
-    <h1 class ="heading-title"book your trip</h1>
+    <h1 class ="heading-title">book your trip</h1>
 
     <form action="book_form.php" method="post" class="book-form">
 
@@ -43,10 +44,9 @@
 			<input type="email" placeholder="enter your email" name="email">
 		
 </div>
-		<div class="inputBox">
-			<span>phone :</span>
-			<input type="number" placeholder="enter your number" name="phone">
-		
+<div class="inputBox">
+    <span>Phone:</span>
+    <input type="tel" placeholder="Enter your phone number" name="phone" pattern="[0-9]{10}" maxlength="15" title="Enter a valid phone number">
 </div>
 		<div class="inputBox">
 			<span>address :</span>
@@ -74,13 +74,19 @@
 		</div>
 	</div>
 
-	 <input type="submit" value "submit" class="btn" name="send">
+	 <input type="submit" value = "submit" class="btn" name="send">
 
 
 	</form>
 
      </section>
 
+
+
+
+
+
+ 
 
 
 
