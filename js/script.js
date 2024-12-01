@@ -11,23 +11,47 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 };
 
-var swiper = new Swiper(".home-slider", { loop:true, navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-},
+var swiper = new Swiper('.home-slider', {
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+        delay: 2500, // Time between slide changes
+        disableOnInteraction: false,
+    },
+    on: {
+        slideChangeTransitionStart: function () {
+            // Optional: Add any additional effects during the transition
+        },
+    },
 });
 
-var swiper = new Swiper(".home-slider", { loop:true, spaceBetween: 20, autoHeight:true, grabCursor:true, breakpoints: {
-    640:{
-        slidesPerView: 1,
+var swiper = new Swiper('.reviews-slider', {
+    loop: false,  // Loop through slides
+    navigation: {
+        nextEl: '.swiper-button-next',  // Add your navigation buttons if needed
+        prevEl: '.swiper-button-prev',
     },
-    768:{
-        slidesPerView: 2,
+    pagination: {
+        el: '.swiper-pagination', // Optional pagination
+        clickable: true,
     },
-    1024:{
-        slidesPerView: 3,
-    },
-},
+    slidesPerView: 1, // Show one slide at a time (you can adjust this based on the screen size)
+    spaceBetween: 30, // Add space between the slides
+    on: {
+        slideChange: function () {
+            // Check if we are on the last slide
+            if (swiper.isEnd) {
+                // Show the "End" message
+                document.querySelector('.end-message').style.display = 'block';
+            } else {
+                // Hide the "End" message if not at the last slide
+                document.querySelector('.end-message').style.display = 'none';
+            }
+        }
+    }
 });
 
 let loadMoreBtn = document.querySelector('.packages .load-more .btn');
@@ -35,9 +59,9 @@ let currentItem = 3;
 
 loadMoreBtn.onclick = () =>{
     let boxes = [...document.querySelectorAll('.packages .box-container .box')];
-    for (var i = currentItem; i < currentItem + 3; i++){
-        boxes[i].style.display = '.inline-block';
-    };
+    for (var i = currentItem; i < currentItem + 3; i++) {
+        boxes[i].style.display = "inline-block";
+    }
     currentItem += 3;
     if(currentItem >= boxes.length){
         loadMoreBtn.style.display = 'none';
